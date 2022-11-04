@@ -1,0 +1,2 @@
+select name, student_id, row_number() over(order by student_id) as serial
+from tablename
